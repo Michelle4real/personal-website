@@ -1,0 +1,504 @@
+*{padding: 0px;
+margin: 0px;
+}
+body{
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+.topbar{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 5%;
+	align-items: center;
+	background-color: red;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	flex: 1.5;
+}
+.logo{
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	text-transform: capitalize;
+	font-family: verdana;
+}	
+.logo-container{
+	flex: 1;
+}
+.menu{
+	display: flex;
+	column-gap: 40px;
+}
+.menu-btm{
+	font-size: 26px;
+	color: white;
+	transition:all 0.2s ease-in-out 0.5s; 
+	display: none;
+}
+.menu a{
+  text-decoration: none;
+  font-size:18px;
+  font-weight: bold;
+  font-family: roboto;
+  text-transform: capitalize;
+  color: white;
+}
+.circle{
+	padding: 8px;
+	border-radius: 100%;
+	border: 1px solid grey;
+	color: white;
+	margin: 5px; 
+}
+.circle:hover{
+	background: rgba(0, 0, 0, 0.3);
+	transition: all 0.5s ease-in-out 0.2s;
+}
+.home-banner{
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+	min-height: 600px;
+	background: red;
+	color: white;
+}
+.banner-img{
+	background: linear-gradient(rgba(40, 31, 91, 0.5), rgba(40, 31, 91, 0.5)),url(images/img.jpg) no-repeat;
+	height: 700px;
+	width: 700px;
+	object-fit: cover;
+	background-size: cover;
+	border-top-left-radius: 50px;
+	margin-top: 20px;
+}
+.banner-text{
+	flex: 1
+	padding:5px;
+	color: white;
+	font-size: 50px;
+	padding-left: 5%;
+	margin-top: 60px;
+}
+.banner-text h1{
+	padding-bottom: 20px;
+}
+.course{
+	font-weight: 500;
+}
+.contact{
+	background:;
+	display: inline-block;
+	padding: 14px 38px;
+	font-size: 20px;
+	font-weight: 500;
+	border: 1px;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: muli;
+	color: black;
+	transition: all 0.5s ease-in-out 0.2s;
+	text-decoration: none;
+}
+.title{
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	color: black;
+	text-transform: capitalize;
+	transition: all 0.5s ease-in-out 0.2s;
+}
+.card{
+	background: white;
+	border: 1px solid blue;
+	padding: 5%;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+}
+.cardd{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 5%;
+	column-gap: 30px;
+}
+.card h3{
+	padding: 10px;
+}
+.head{
+	text-align: center;
+	padding: 20px;
+	font-family: verdana;	
+}
+.title{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 500;
+	padding: 30px;
+	text-transform: capitalize;
+	font-family: verdana;
+	font-style: muli;
+}
+.header{
+	text-transform: capitalize;
+	text-align: center;
+}
+.container{
+	display: flex;
+	padding: 5%;
+	justify-content:center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+	padding: 12px;
+}
+.about{
+	display: flex;
+	justify-content: center;
+}
+.about  img{
+	height: 400px;
+	width: 400px;
+	object-fit: cover;
+}
+.desc{
+	flex: 1;
+	line-height: 30px;
+}
+.img-con{
+	flex: 1;
+}
+.about p{
+	font-size: 20px;
+	/*font-weight: 400;*/
+	margin-top: 20px;
+	/*margin-top: 40px;*/
+	padding: 50px;
+	font-family: verdana;
+}
+.about button{
+	text-decoration: none;
+}
+.train{
+	display: inline-block;
+	padding: 14px 38px;
+	font-size: 20px;
+	font-weight: 500;
+	border: 1px;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: muli;
+	color: black;
+	transition: all 0.5s ease-in-out 0.2s;
+	text-decoration: none;
+}
+.skills h1{
+text-align: center;
+font-size: 40px;
+font-family: muli;
+text-transform: capitalize;
+padding: 20px;
+}
+.card2 {
+	height: 200px;
+	width: 200px;
+	object-fit: contain;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	column-gap: 30px;
+	padding: 20px 5%;
+	background-color: white;
+	box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	gap: 20px
+}
+.img-wrapper{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 5%;
+	column-gap: 30px; 
+}
+.project{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 50px;
+	font-family: verdana;
+	padding-top: 55px;
+}
+.hire{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-family: verdana;
+	padding-top: 30px;
+}
+.button{
+	background: yellow;
+	display: inline-block;
+	padding: 14px 38px;
+	font-size: 20px;
+	font-weight: 500;
+	border: 1px;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: muli;
+	color: black;
+	transition: all 0.5s ease-in-out 0.2s;
+	text-decoration: none;
+}
+.discuss-project{
+	background: orange;
+	height: 500px;
+}
+.btn-wrap{
+	text-align: center;
+	margin-top: 30px;
+}
+.footer-menu{
+	display: flex;
+	column-gap: 20px;
+	justify-content: space-between;
+	height: 200px;
+	align-items: center;
+	border-bottom: 1px solid green;
+	padding: 0 5%;
+}
+.footer-menu a{
+	text-transform: capitalize;
+	text-decoration: none;
+	margin: 15px;
+	color: black;
+	font-size: 15px;
+	font-family: verdana;
+}
+.card2 img{
+	height: 100px;
+	width: 100px;
+}
+.about-banner h1{
+	text-transform: capitalize;
+	text-align: center;
+	font-family: muli;
+	font-size: 50px;
+	padding-top: 60px;
+}
+.about-banner{
+	background: red;
+	height: 300px;
+}
+.title2{
+	text-transform: capitalize;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-left: 50px;
+	font-family: verdana;
+}
+.label{
+	font-family: verdana;
+	font-size: 50px;
+	padding-left: 50px;
+}
+.intro{
+	padding-left: 50px;
+	font-size: 15px;
+	font-family: verdana;
+	text-align: justify;
+	line-height: 30px;
+}
+.intro2{
+	padding-left: 50px;
+	font-size: 15px;
+	font-family: verdana;
+	text-align: justify;
+	line-height: 30px;
+	margin-top: 0px;
+}
+.portfolio-banner h1{
+	text-transform: capitalize;
+	text-align: center;
+	font-family: muli;
+	font-size: 50px;
+	padding-top: 60px;
+	color: white;
+}
+.portfolio-banner{
+	background: red;
+	height: 300px;
+}
+.project{
+	margin-bottom: 30px;
+}
+.contact-banner{
+	background: red;
+	height: 300px;
+}
+.contact-banner h1{
+	text-transform: capitalize;
+	text-align: center;
+	font-family: muli;
+	font-size: 50px;
+	padding-top: 60px;
+	color: white;
+}
+.touch{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 19px;
+	font-family: verdana;
+	padding-top: 55px;
+}
+
+.contact-info{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	padding: 30px 10%;
+	grid-gap: 50px;
+}
+.contact-info a{
+	text-transform: capitalize;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+.topbar a{
+	text-decoration: none;
+}
+@media(max-width:768px){
+	.home-banner{
+		flex-wrap: wrap;
+	}
+	.banner-img{
+		display: none;
+	}
+	.cardd{
+		flex-wrap: wrap;
+		gap:20px;
+	}
+	.frame{
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr);
+		padding-left: 5%;
+		row-gap:30px;
+	}
+	.header{
+		margin-bottom: 20px
+	}
+	.title{
+		font-size: 1em;
+	}
+	.img-wrapper{
+		display: grid;
+		grid-template-columns:1fr;
+		row-gap:20px;
+		justify-content: center;
+	}
+	.img-wrapper img{
+		object-fit: contain;
+	}
+	.project{
+		font-size: 15px;
+	}
+	.footer-menu{
+		flex-wrap: wrap;
+	}
+	.intro2{
+		font-size: 20px;
+	}
+	.contact-info{
+		font-size: 120%;
+		grid-template-columns: 1fr;
+		padding:30px 5%; 
+	}
+	.about{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.img-con{
+		margin-top: 30px;
+	}
+	.banner-text{
+		font-size: 30px;
+		font-family: verdana;
+		padding: 20px;
+		line-height: 90px;
+		font-weight: 300;
+	}
+	.contact{
+		display: none;
+	}
+	.label{
+		font-size: 200%;
+		padding: 12px;
+	}
+	.about-banner{
+		padding: 12px;
+	}
+	.intro,.intro2{
+		padding: 12px;
+	}
+	.menu-btm{
+		display: block;
+		padding-left: 180px;
+	}
+	.topbar{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.navbar{
+		background: rgba(0, 0, 0, 0.7);
+		width: 70vw;
+		height: 80vh;
+		position: absolute;
+		left: 0;
+		top: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		text-align: center;
+		transition: all 0.5s ease-in-out 0.2s;
+		border-radius: 10px;
+		transform: translateX(-500px);
+	}
+	.menu{
+		flex-direction: column;
+		display: flex;
+		gap:40px;
+	}
+	.menu a{
+		font-size: 150%;
+		transition: all 0.5s ease-in-out 0.2s;
+	}
+	.navbar i{
+		font-size: 120%;
+		transition: all 0.5s ease-in-out 0.2s;
+	}
+	.navbar .circle{
+		padding: 12px;
+		margin: 15px;
+	}
+		/*.menu a:nth-child(even){
+  		background-color: red;
+  	}*/
+  	.footer-menu a{
+  		font-size: 80%;
+  	}
+  	.navbar.show{
+  		transform: translateX(-2px);
+  		transition: all 0.5s ease-in-out 0.2s;
+  	}
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<header class="topbar">
+	<div class="logo-container"><a href="index.html"><span class="logo">m.a.e</span></a></div>
+	<div class="menu-btm">
+		<i class="fas fa-bars"></i>
+	</div>
+	<div class="navbar">
+		<nav class="menu">
+		<a href="index.html">home</a>
+		<a href="about.html">about</a>
+		<a href="portfolio.html">portfolio</a>
+		<a href="contact.html">contact</a>
+	</nav>
+	<div>
+	<span class="circle"><i class="fab fa-linkedin"></i></span>
+	<span class="circle"><i class="fas fa-envelope"></i></span>
+	<span class="circle"><i class="fab fa-github"></i></span>
+	</div>
+	</div>
+</header>
+<div class="portfolio-banner">
+	<h1>portfolio</h1>
+</div>
+<div class="project">
+	<p>projects</p>
+</div>
+<div class="discuss-project">
+	<div class="project">let's discuss for a project</div>
+	<h4 class="hire">hire me for a job</h4>
+	<div class="btn-wrap">
+	<a href="contact.html" class="button">
+		<span class="button">lets connect</span>
+	</a>
+</div>
+<div class="footer-menu">
+	<nav>
+		<a href="index.html"> home</a>
+		<a href="about.html">about</a>
+		<a href="portfolio.html">portfolio</a>
+		<a href="contact.html">contact</a>
+	</nav>
+	<div>
+		<span class="circle"><i class="fab fa-facebook"></i></span>
+		<span class="circle"><i class="fab fa-twitter"></i></span>
+		<span class="circle"><i class="fab fa-github"></i></span>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+	const btm = document.getElementById('menu-btm')
+	document.querySelector(".menu-btm").addEventListener("click", ()=>document.querySelector(".navbar").classList.toggle("show"))
+</script>
+</body>
+</html>
